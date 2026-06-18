@@ -1,0 +1,22 @@
+.video-block {
+    margin-bottom: 40px;
+}
+
+.video-block h2 {
+    font-size: 28px;
+    color: #c0392b;
+    margin-bottom: 10px;
+}
+
+.video-desc {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.video-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #c0392b;
+}
