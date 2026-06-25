@@ -1,0 +1,17 @@
+.content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.content-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+
+.content-text {
+    font-size: 1rem;
+    color: #4b5563;
+}
