@@ -1,0 +1,13 @@
+.my-button {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.my-button:hover {
+    opacity: 0.85;
+}

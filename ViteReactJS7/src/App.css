@@ -1,0 +1,44 @@
+.container {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 0 20px 30px;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.practice-section {
+  margin-bottom: 25px;
+}
+
+.practice-section h2 {
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+}
+
+.cities {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .cities {
+    grid-template-columns: 1fr;
+  }
+}

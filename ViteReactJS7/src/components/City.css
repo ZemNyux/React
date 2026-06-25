@@ -1,0 +1,33 @@
+.city-card {
+    background-color: #0d0d0d;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Courier New', monospace;
+}
+
+.city-card h3 {
+    color: #00ff00;
+    margin: 0 0 15px 0;
+    font-size: 22px;
+}
+
+.city-photo {
+    width: 100%;
+    height: 220px;
+    border: 3px solid #00ff00;
+    border-radius: 5px;
+    object-fit: cover;
+    display: block;
+}
+
+.city-facts {
+    color: #ffffff;
+    margin: 15px 0 0 0;
+    padding-left: 20px;
+}
+
+.city-facts li {
+    margin-bottom: 8px;
+}

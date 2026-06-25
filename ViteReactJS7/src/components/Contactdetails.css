@@ -1,0 +1,33 @@
+.contact-details {
+    background-color: #0d0d0d;
+    border: 2px solid #00ff00;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.contact-details h2 {
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+}
+
+.contact-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Courier New', monospace;
+}
+
+.contact-block label {
+    color: #00ff00;
+    width: 150px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contact-block span {
+    color: #ffffff;
+    font-size: 16px;
+}
