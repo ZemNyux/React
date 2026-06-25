@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>vite.react12</title>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<div id="snowfall"></div>
+<script>
+    particlesJS("snowfall", {
+        particles: {
+            number: {value: 200}, // Количество снежинок
+            size: {value: 2}, // Размер снежинок
+            opacity: {value: 1}, // Прозрачность
+            move: {speed: 0.5, direction: "bottom"}, // Скорость падения вниз
+            color: {value: "#89ddff"}, // Цвет снежинок
+        }
+    });
+</script>
+</html>
