@@ -24,3 +24,7 @@ https://uk.react.dev/learn/conditional-rendering
 https://lesscss.org/
 
 https://sass-lang.com/documentation/variables/
+
+https://getbootstrap.com/
+
+https://bulma.io/
