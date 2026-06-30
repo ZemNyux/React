@@ -22,3 +22,5 @@ https://react.dev/reference/react/useActionState - useActionState
 https://uk.react.dev/learn/conditional-rendering
 
 https://lesscss.org/
+
+https://sass-lang.com/documentation/variables/
