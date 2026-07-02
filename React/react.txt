@@ -48,3 +48,5 @@ https://chakra-ui.com/docs/components/dialog
 https://mantine.dev/core/menu/
 
 https://datatracker.ietf.org/doc/rfc6455/?__cf_chl_f_tk=LF.Ti4IQYtlrDrsNuRCJ0z.4cpZ3a0cjzTkSobCldnY-1783001697-1.0.1.1-h67PbI92TIMAd0xMdDC7hUwfbbVyjec68OOZ.jk28KA
+
+ESLint or OxLint - https://grok.com/share/bGVnYWN5LWNvcHk_d48f2a9d-e5cd-40c5-be13-fba2e0997dde
