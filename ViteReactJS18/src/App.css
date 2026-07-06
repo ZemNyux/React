@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+  color: #e0e0e0;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  color: #00fff7;
+  text-shadow: 0 0 10px #00fff7;
+  margin-bottom: 10px;
+}
+
+div {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background: rgba(30, 30, 30, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+}
+
+strong {
+  color: #ffd700;
+}
+
+p {
+  margin: 12px 0;
+}
+
+button {
+  background: linear-gradient(to right, #ff004c, #ff6e00);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff6e00, #ff004c);
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #ff004c;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 15px;
+}
+
+li {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 4px solid #00fff7;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+li:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
