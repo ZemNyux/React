@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { useForm } from 'react-hook-form'; // Не забудь прописать в терминале: npm install react-hook-form
+import { useForm } from 'react-hook-form';
 
-// 1. Компонент: Информация об игре (Пропсы)
 const GameInfo = ({ title, developer, genre, releaseYear }) => {
     return (
         <div style={{ border: '1px solid #ccc', padding: '15px', marginBottom: '10px', borderRadius: '5px' }}>
@@ -13,7 +12,6 @@ const GameInfo = ({ title, developer, genre, releaseYear }) => {
     );
 };
 
-// 2. Компонент: Отзывы (Состояние и Пропсы)
 const GameReviews = ({ reviews }) => {
     const [showReviews, setShowReviews] = useState(true);
 
@@ -40,7 +38,6 @@ const GameReviews = ({ reviews }) => {
     );
 };
 
-// 3. Компонент: Форма с валидацией (React Hook Form)
 const ReviewForm = () => {
     const {
         register,
@@ -105,7 +102,6 @@ const ReviewForm = () => {
     );
 };
 
-// Главный компонент, который объединяет ВСЁ для сдачи ДЗ
 function App() {
     const gameData = {
         title: "Grand Theft Auto V / Online",
